@@ -1,0 +1,10 @@
+version: "4.22.0"
+
+services:
+  app:
+    container_name: docker-crypto-x
+    image: docker-crypto-x
+    build:
+      context: .
+    ports:
+      -8080:80
